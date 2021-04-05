@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Bootstrap file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!--font awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--styles in CSS-->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- font-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lora:ital,wght@0,400;0,700;1,500;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <nav class="navbar navbar-expand-lg navbar-light navbar-collapse">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto ">
+                            <li id="active-link" class="nav-item">
+                                <a class="nav-link small font-weight-bold" href="#" id="homehov">HOME <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+
+                            <li class="nav-item-about dropdown ">
+                                <a class="nav-link dropdown-toggle small font-weight-bold" href="#" id="navbarDropdown"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    ABOUT THE TESTS
+                                </a>
+                                <div class="dropdown-menu small font-weight-bold" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item border-bottom" href="#">Page Markup and formatting</a>
+                                    <a class="dropdown-item border-bottom" href="#">Clearing Floats</a>
+                                    <a class="dropdown-item border-bottom" href="#">Page With Comments</a>
+                                    <a class="dropdown-item border-bottom" href="#">Page With Comments Disabled</a>
+                                    <a class="dropdown-item" href="#">Lorem Ipsum</a>
+                                </div>
+                            </li>
+                            <li class="nav-item-level dropdown text-dark small font-weight-bold">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    LEVEL1
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item border-bottom" href="#">Level-2</a>
+                                    <a class="dropdown-item" href="#">Level-3</a>
+                                </div>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link small font-weight-bold" href="#" id="homehove">SHOP <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+                <div class="nav-search pt-2">
+                    <form class="d-flex w-auto">
+                        <input class="form-control mr-sm-8 border-0" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn text-muted" type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="logo">
+                <h1 class="site-name">
+                    <a href="https://demo.colorlib.com/activello/" class="custom-logo-link" rel="home"
+                        aria-current="page">
+                        <img width="207" height="28"
+                            src="https://demo.colorlib.com/activello/wp-content/uploads/sites/57/2015/11/logo.png"
+                            class="custom-logo" alt="Activello Theme Demo"></a>
+                </h1>
+                <div class="tagline text-muted">Just another colorlib.com site</div>
+            </div>
+        </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/image1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="" class="tempp nav-link text-uppercase" rel="category tag">Template</a>
+                        <div class="chitti">
+                        </div>
+                        <a href="" class="tempp nav-link font-italic">
+                            <h2>Template: Featured Image (No Sidebar Layout)</h2>
+                        </a>
+                        <div><a href="#" class="read-more nav-link font-weight-bold text-uppercase">Read More</a></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Image2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="#" class="tempp nav-link text-uppercase" rel="category tag">Template</a>
+                        <div class="chitti">
+                        </div>
+                        <a href="#" class="tempp nav-link font-italic">
+                            <h2>Template: Featured Image (Full Width No Sidebar Layout)</h2>
+                        </a>
+                        <div><a href="#" class="read-more nav-link font-weight-bold text-uppercase">Read More</a></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Image3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="#" class="tempp nav-link text-uppercase" rel="category tag">Template</a>
+                        <div class="chitti">
+                        </div>
+                        <a href="#" class="tempp nav-link font-italic">
+                            <h2>Template: More Tag</h2>
+                        </a>
+                        <div><a href="#" class="read-more nav-link font-weight-bold text-uppercase">Read More</a></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Image4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="#" class="tempp nav-link text-uppercase" rel="category tag">Template</a>
+                        <div class="chitti">
+                        </div>
+                        <a href="#" class="tempp nav-link font-italic">
+                            <h2>Template: Excerpt (Defined)</h2>
+                        </a>
+                        <div><a href="#" class="read-more nav-link font-weight-bold text-uppercase">Read More</a></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Image5.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="#" class="tempp nav-link text-uppercase" rel="category tag">Template</a>
+                        <div class="chitti">
+                        </div>
+                        <a href="#" class="tempp nav-link font-italic">
+                            <h2>Template: Comments</h2>
+                        </a>
+                        <div><a href="#" class="read-more nav-link font-weight-bold text-uppercase">Read More</a></div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <section class="col-12 col-md-8 p-3">
+                <article>
+                    <div class="card-top py-3 text-center">
+                        <a href="index2.html" class="postt nav-link small">POST FORMATS</a>
+                        <div class="line-maaro ">
+                        </div>
+                        <a href="index3.html" class="postt nav-link font-italic">
+                            <h5>Post Format: Standard</h5>
+                        </a>
+                        <p class="posted text-secondary">
+                            <span>Posted on
+                                <a href="#" class="date text-decoration-none">October 5, 2016</a>
+                                by
+                                <a href="#" class="date text-decoration-none">Aigars</a>
+                            </span>
+                            <a href="#" class="card-image py-3">
+                                <img src="images/Image6.jpg" alt="" class=" pic img-fluid ">
+                            </a>
+                        <p class="text-left py-2 text-muted">All children, except one, grow up. They soon know that they
+                            will
+                            grow up, and the way
+                            Wendy knew was this. </p>
+                        <a href="#" class="read-moree nav-link mb-4 text-uppercase">READ MORE</a>
+                        <hr>
+                        </p>
+                    </div>
+                    <div class="card-top py-3 text-center">
+                        <a href="#" class="postt nav-link small">POST FORMATS</a>
+                        <div class="line-maaro ">
+                        </div>
+                        <a href="#" class="postt nav-link font-italic">
+                            <h5>Post Format: Gallery</h5>
+                        </a>
+                        <p class="posted text-muted">
+                            <span>Posted on
+                                <a href="#" class="date text-decoration-none">November 12, 2015</a>
+                                by
+                                <a href="#" class="date text-decoration-none">Aigars</a>
+                            </span>
+                            <a href="#" class="card-image py-3">
+                                <img src="images/Image7.jpg" alt="" class="pic img-fluid">
+                            </a>
+                        <p class="text-left py-2 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Donec
+                            tincidunt, sapien nec aliquam viverra, libero elit euismod turpis, vel sollicitudin nisi
+                            eros eget tortor.</p>
+                        <a href="#" class="read-moree nav-link mb-4">READ MORE</a>
+                        <hr>
+                        </p>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="card-top col-12 col-sm-6 py-3 text-center">
+                                <a href="#" class="postt nav-link small">TEMPLATE</a>
+                                <div class="line-lgaade ">
+                                </div>
+                                <a href="#" class="postt nav-link font-italic">
+                                    <h5>Template: Featured Image (No Sidebar Layout)</h5>
+                                </a>
+                                <p class="posted text-muted">
+                                    <span>Posted on
+                                        <a href="#" class="date text-decoration-none">November 11, 2015</a>
+                                        by
+                                        <a href="#" class="date text-decoration-none">Aigars</a>
+                                    </span>
+                                    <a href="#" class="card-image py-3">
+                                        <img src="images/L1.jpg" alt="" class="pic img-fluid">
+                                    </a>
+                                <p class="text-left py-4 text-muted">This post should display a featured image, if the
+                                    theme
+                                    supports it. Non-square images can provide some unique styling issues. This post
+                                    tests a vertical featured image..</p>
+                                <hr>
+                                </p>
+                            </div>
+                            <div class="card-top col-12 col-sm-6 py-3 text-center">
+                                <a href="#" class="postt nav-link small">TEMPLATE</a>
+                                <div class="line-lgaade ">
+                                </div>
+                                <a href="#" class="postt nav-link font-italic">
+                                    <h5>Template: Featured Image (Full Width No Sidebar Layout)</h5>
+                                </a>
+                                <p class="posted text-muted">
+                                    <span>Posted on
+                                        <a href="#" class="date text-decoration-none">November 1, 2015</a>
+                                        by
+                                        <a href="#" class="date text-decoration-none ">Aigars</a>
+                                    </span>
+                                    <a href="#" class="card-image py-3">
+                                        <img src="images/R1.jpg" alt="" class="pic img-fluid">
+                                    </a>
+                                <p class="text-left py-4 text-muted">This post should display a featured image, if
+                                    the theme
+                                    supports it. Non-square images can provide some unique styling issues.</p>
+                                <hr>
+                                </p>
+                            </div>
+                            <div class="card-top col-12 col-sm-6 py-3 text-center">
+                                <a href="#" class="postt nav-link small">TEMPLATE</a>
+                                <div class="line-lgaade ">
+                                </div>
+                                <a href="#" class="postt nav-link font-italic">
+                                    <h5>Template: More Tag</h5>
+                                </a>
+                                <span class="posted text-muted">
+                                    Posted on
+                                    <a href="#" class="date text-decoration-none">November 1, 2015</a>
+                                    by
+                                    <a href="#" class="date text-decoration-none">Aigars</a>
+                                    <a href="#" class="card-image py-3">
+                                        <img src="images/L2.jpg" alt="" class="pic img-fluid">
+                                    </a>
+                                    <p class="text-left py-4 text-muted">This content is before the more tag. Right
+                                        after this
+                                        sentence should be a “continue reading” button of some sort.</p>
+                                    <hr>
+                                </span>
+                            </div>
+                            <div class="card-top col-12 col-sm-6 py-3 text-center">
+                                <a href="#" class="postt nav-link small">TEMPLATE</a>
+                                <div class="line-lgaade ">
+                                </div>
+                                <a href="#" class="postt nav-link font-italic">
+                                    <h5>Template: Excerpt (Defined)</h5>
+                                </a>
+                                <span class="posted text-muted">
+                                    Posted on
+                                    <a href="#" class="date text-decoration-none"> October 15, 2015</a>
+                                    by
+                                    <a href="#" class="date text-decoration-none"> Aigars</a>
+                                    <a href="#" class="card-image py-3">
+                                        <img src="images/R2.jpg" alt="" class="pic img-fluid">
+                                    </a>
+                                    <p class="text-left py-4 text-muted">This is a user-defined post excerpt. It should
+                                        be
+                                        displayed in place of the post content in archive-index pages.</p>
+                                    <hr>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="postt nav-link text-uppercase small pb-3">older posts</a>
+                </article>
+            </section>
+            <aside class="col-12 col-md-4">
+                <div>
+                    <article>
+                        <div class="card-top text-left pt-4">
+                            <div class="adver ">
+                                <P class="text-uppercase text-muted ">about me</P>
+                            </div>
+                            <a href="#" class="card-image py-3">
+                                <img src="images/Right.jpg" alt="" class="img-fluid">
+                            </a>
+                            <p class="text-left text-muted pt-2">My name is
+                                <b>Activello</b> and I am an awesome WordPress blog theme for
+                                photography, food, travel and other blogs. I was created by <a href="#"
+                                    class="date text-decoration-none"><b>colorlib</b></a>.
+                            </p>
+                        </div>
+                        <div class="social-media">
+                            <div class="adver">
+                                <P class="text-uppercase text-muted">follow me</P>
+                            </div>
+                            <div class="menu-list pt-4">
+                                <ul class="social-items pb-4">
+                                    <li class="item">
+                                        <a href="#" class="postt">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="#" class="postt">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="#" class="postt">
+                                            <i class="fa fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="#" class="postt">
+                                            <i class="fa fa-google"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="#" class="postt">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <a href="#" class="postt">
+                                            <i class="fa fa-github"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="recent">
+                            <div class="adver pb-4">
+                                <p class="text-uppercase text-muted">recent posts</p>
+                            </div>
+                            <div class="mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img src="images/aside1.jpg" alt="..." class="pic img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="col-8 text-center mt-3">
+                                        <div>
+                                            <a href="#" class="col-12 postt  text-decoration-none">Post Format:
+                                                Standard</a>
+                                            <p class="col-12"><small class="text-muted">- 05 Oct, 2016
+                                                </small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img src="images/aside2.jpg" alt="..." class="pic img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="col-8 text-center mt-3">
+                                        <div>
+                                            <a href="#" class="col-12 postt text-decoration-none">Post Format:
+                                                Gallery</a>
+                                            <p class="col-12"><small class="text-muted">- 12 Nov, 2015
+                                                </small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img src="images/aside3.jpg" alt="..." class="pic img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="col-8 text-center mt-3">
+                                        <div>
+                                            <a href="#" class="col-12 postt text-decoration-none">Template: Featured
+                                                Image (No
+                                                Sidebar Layout)</a>
+                                            <p class="col-12"><small class="text-muted">- 11 Nov, 2015
+                                                </small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="search-aside pt-5">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Search"
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <a href="#" class="text-decoration-none">
+                                    <span class=" butn input-group-text " id="basic-addon2">Search</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="adver">
+                            <p class="text-uppercase text-muted pt-5">categories</p>
+                        </div>
+                        <div class="list-2 pt-1 ">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item p-1">
+                                    <a href="#" class="postt text-decoration-none">Post Formats</a>
+                                    <span class="badge float-right">11</span>
+                                </li>
+                                <li class="list-group-item p-1">
+                                    <a href="#" class="postt text-decoration-none">Template</a>
+                                    <span class="badge float-right">5</span>
+                                </li>
+                                <li class="list-group-item p-1">
+                                    <a href="#" class="postt text-decoration-none">Cat A</a>
+                                    <span class="badge float-right">3</span>
+                                </li>
+                                <li class="list-group-item p-1">
+                                    <a href="#" class="postt text-decoration-none">Edge Case</a>
+                                    <span class="badge float-right">3</span>
+                                </li>
+                                <li class="list-group-item p-1 ">
+                                    <a href="#" class="postt text-decoration-none">Cat B</a>
+                                    <span class="badge float-right">2</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="anytext small text-muted pt-5">
+                            <p>Any text goes here.....</p>
+                        </div>
+                        <div class="adver pt-4 text-muted ">
+                            <p class="lgade">THIS THEME IS ADSENSE READY.</p>
+                        </div>
+                    </article>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <footer class="" style="background-color: #f2f2f2;">
+        <div class="social-media">
+            <div class="menu-list">
+                <ul class="social-items pt-5 text-center " >
+                    <li class="item">
+                        <a href="#" class="postt ">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="postt">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="postt">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="postt">
+                            <i class="fa fa-google"></i>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="postt">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="postt">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-text col-md-12 text-center pb-4 small">
+            Activello. Theme by <a href="#" class="posttt text-decoration-none">Colorlib</a> Powered by <a href="#"
+                class="posttt text-decoration-none">
+                Word Press</a>
+        </div>
+        <div class="arrow pt-4">
+            <button class="scroll-to-top" style="display: inline-block;"><i class="fa fa-angle-up"></i></button>
+        </div>
+    </footer>
+</body>
+
+<script src="scripts/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+
+</html>
